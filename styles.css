@@ -1,0 +1,73 @@
+body{
+color:rgb(244, 251, 251);
+background: rgb(93, 5, 5);
+margin: 0px;
+font-family: "Antonio", sans-serif;
+margin-bottom: 50px;
+}
+
+header{
+border-bottom:solid 2px rgb(255, 255, 255);
+padding: 20px;
+font-size: 50px;
+color: rgb(255, 255, 255);
+}
+
+.primeiro-video{
+
+background: rgb(46, 3, 3);
+padding-bottom: 80px;
+padding-top: 80px;
+display: flex;
+justify-content: center;
+}
+
+.nome{
+margin-right: 5%;
+
+}
+
+h1{
+
+    font-size: 40px
+}
+p{
+    font-size: 20px;
+}
+
+img {
+    height: 200px;
+  }
+
+  .dranw-mask{
+display: flex;
+overflow-x: auto;
+gap: 10px;
+  }
+
+.desenhos{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.dranw-mask img {
+opacity: 0.5;
+height: 200px;
+}
+
+.dranw-mask img:hover {
+  opacity: 1.0;
+  border: 5px solid rgb(255, 255, 255);
+
+  }
+
+.desenhos h2{
+  color: rgb(0, 0, 0);
+
+}
+
+.desenhos {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 40px;
+}
